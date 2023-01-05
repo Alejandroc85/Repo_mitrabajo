@@ -1,0 +1,79 @@
+*{ margin: 0px; padding: 0; box-sizing: border-box; }
+
+/*Estoy utilizando border box para trabajar el tamaño total de los objetos controlados de forma interna*/
+
+/*TRABAJAR RESPONSIVE EN 3 TAMAÑOS ()*/
+
+/*REM siempre para texto, 1 Rem=16 px por defecto*/
+
+
+/*INICIO HEADER*/
+
+.header { box-sizing: border-box; width: 100%; height: fit-content ; background-color: mediumblue; padding: 1rem; }
+
+        .header__logo {width: 12rem; padding: 1rem; justify-content: left;  align-items: center;}
+
+        .header__barra_navegador { width: 100%; height: auto; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+
+        .textos__navegador { width: 45rem; display: flex; justify-content: right; align-items: center; }
+        
+        .header__textobarranavegador {color: aliceblue; font-size: x-large; padding: 1rem; text-decoration: none; }
+
+         .header__textobarranavegadoractivo {color: rgb(255, 86, 1); font-size: x-large; padding: 1rem; }
+
+ /*FINAL HEADER*/
+
+/*INICIO MAIN*/
+.body { width: 100%; background-color: #3F3A3A;}
+    .bodyindex_background {background-color: mediumblue; display: grid; place-items: center;}
+    .bodyIndex__headerhero {color: aliceblue; font-size: 2rem;}
+    .bodyindex__parrafo {color: aliceblue; font-size: 2rem;}
+
+   
+
+    .bodyIndex__headerreel {color: aliceblue; font-size: 2rem; text-align: right; }
+
+
+/*FINAL MAIN*/
+
+/*INICIO FOOTER*/
+
+    .footerindex__contenedor {width: 100%;height: fit-content; background-color: #3F3A3A;}
+    .footerindex { width: auto; height: fit-content; }
+    .footerindex__contenedorimagenes { display: flex; justify-content: space-around; }
+    .footerindex__parrafobajo {color: aliceblue; font-size: 2rem; text-align: center; }
+
+/*check this bellow*/
+
+.footerindex__torrevieja { max-width: 15% ; max-height: 15%; aspect-ratio: 3/2; object-fit: contain; }
+
+.footerIndex__lapetina { max-width: 15% ; max-height: 15%; aspect-ratio: 3/2; object-fit: contain; }
+
+.footerIndex__alpe { max-width: 15% ; max-height: 15%; aspect-ratio: 3/2; object-fit: contain; }
+
+.footerIndex__searaan { max-width: 15% ; max-height: 15%; aspect-ratio: 3/2; object-fit: contain; }
+
+.contenedor_redessociales { width: 100%; height: fit-content; }
+
+.fa-brands {max-width: 15% ; max-height: 50%; aspect-ratio: 3/2; object-fit: contain;}
+
+/*FINAL FOOTER*/
+
+/*MEDIA QUERY INICIO*/
+
+    @media screen and (max-width: 425px) {
+    
+    
+}
+
+    @media screen and ( max-width: 768px) {
+    
+}
+
+
+    @media screen and (max-width: 1024px) {
+    
+}
+
+
+/*MEDIA QUERY FINAL*/
