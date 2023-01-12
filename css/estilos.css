@@ -1,12 +1,5 @@
 *{ margin: 0px; padding: 0; box-sizing: border-box; }
 
-/*Estoy utilizando border box para trabajar el tamaño total de los objetos controlados de forma interna*/
-
-/*TRABAJAR RESPONSIVE EN 3 TAMAÑOS ()*/
-
-/*REM siempre para texto, 1 Rem=16 px por defecto*/
-
-
 /*INICIO HEADER*/
 
 .header { box-sizing: border-box; width: 100%; height: fit-content ; background-color: mediumblue; padding: 1rem; }
@@ -28,8 +21,8 @@
 
     .bodyindex_background {background-color: mediumblue; display: grid; place-items: center;}
     .bodyIndex__headerhero {color: aliceblue; font-size: 2rem;}
-    .bodyindex__parrafo {color: aliceblue; font-size: 2rem;} 
-    .bodyIndex__headerreel {color: aliceblue; font-size: 2rem; text-align: right; }
+    .bodyindex__parrafo {color: aliceblue; font-size: 2rem;text-align: center;} 
+    .bodyIndex__headerreel {background-color: #3F3A3A; color: aliceblue; font-size: 2rem; text-align: center; }
     .bodyindex__boton { text-decoration: none;
     color: white;
   position: absolute;
@@ -103,23 +96,75 @@ animation: animacion 2s linear infinite;}
 
   65% {box-shadow: 0 0 0 100px rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);}
 
-  100% {box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);}
-  ;}
+  100% {box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), , 0 0 0 30px rgba(29, 171, 209, 0);}
+  }
 
 /*MEDIA QUERY INICIO*/
 
-    @media screen and (max-width: 425px) {
-    
-    
-}
+@media screen and (max-width: 425px) {
+  
+  .bodyindex {width: 425px;}
+  .header__barra_navegador{display: flex; flex-direction: column;flex-flow: row;}
+  
+  .textos__navegador {width: fit-content;display: flex; flex-direction: column; justify-content: center; }
+  .header__textobarranavegador {font-size: 1.5rem;}
+  .bodyindex_background {width: 425px;display: flex;flex-direction: column;}    
+  .bodyIndex__headerhero {font-size: 1.5rem; text-align: center;}
+  .bodyindex__parrafo {font-size: 1.5rem; text-align: center;}
+  .bodyIndex__imagehero {width: 330px;}
+  .bodyindex__boton {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 100%;
+    left: 10%;
+    background: rgb(247, 185, 14, 1);
+    padding: 40px 5px;
+    border-radius: 50%;
+    animation: animacion 2s linear infinite;}
+    .bodyIndex__headerreel {font-size: 1rem;text-align: center;}
+    .footerindex__parrafobajo {font-size: 1rem;}
+    .botones {min-width: 425px;background-image: radial-gradient( circle 425px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );}
 
-    @media screen and ( max-width: 768px) {
-    
-}
+    }
 
+
+
+    @media screen and ( max-width: 768px) { 
+
+      .header__barra_navegador { width: 100%; height: auto; }    
+      .textos__navegador {width: fit-content;}  
+      .bodyindex_background {width: 768px;display: flex;flex-direction: column;}    
+      .bodyIndex__headerhero {text-align: center;}
+      .bodyindex__parrafo {text-align: center;}
+      .bodyIndex__imagehero {width: 550px;}
+      .bodyindex__boton {
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 100%;
+        left: 10%;
+        background: rgb(247, 185, 14, 1);
+        padding: 40px 5px;
+        border-radius: 50%;
+        animation: animacion 2s linear infinite;}
+        .bodyIndex__headerreel {font-size: 2rem;text-align: center;}
+        .footerindex__parrafobajo {font-size: 2rem;}
+        .botones {min-width: 768px;background-image: radial-gradient( circle 768px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );}
+  
+
+    }
+  
 
     @media screen and (max-width: 1024px) {
-    
+          
+      .body {width: 1024px; }
+    .bodyIndex__headerhero { text-align: center;}
+    .bodyindex__parrafo {color: aliceblue; font-size: 2rem;text-align: center;} 
+    .bodyindex__boton {top: 120%;}
+    .bodyIndex__headerreel {background-color: #3F3A3A; color: aliceblue; font-size: 2rem; text-align: center; }
+      .botones {min-width: 1024px;background-image: radial-gradient( circle 1024px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+
 }
 
 
