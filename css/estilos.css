@@ -24,15 +24,22 @@
  /*FINAL HEADER*/
 
 /*INICIO MAIN*/
-.body { width: 100%; background-color: #3F3A3A;}
+.body {width: 100%; background-color: #3F3A3A;}
+
     .bodyindex_background {background-color: mediumblue; display: grid; place-items: center;}
     .bodyIndex__headerhero {color: aliceblue; font-size: 2rem;}
-    .bodyindex__parrafo {color: aliceblue; font-size: 2rem;}
-
-   
-
+    .bodyindex__parrafo {color: aliceblue; font-size: 2rem;} 
     .bodyIndex__headerreel {color: aliceblue; font-size: 2rem; text-align: right; }
-
+    .bodyindex__boton { text-decoration: none;
+    color: white;
+  position: absolute;
+top: 100%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgb(247, 185, 14, 1);
+padding: 70px 30px;
+border-radius: 50%;
+animation: animacion 2s linear infinite;}
 
 /*FINAL MAIN*/
 
@@ -53,11 +60,51 @@
 
 .footerIndex__searaan { max-width: 15% ; max-height: 15%; aspect-ratio: 3/2; object-fit: contain; }
 
-.contenedor_redessociales { width: 100%; height: fit-content; }
+.botones {
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.fa-brands {max-width: 15% ; max-height: 50%; aspect-ratio: 3/2; object-fit: contain;}
+.botones {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .botones a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .botones a:hover {
+    transform: scale(1.2);
+  }
 
 /*FINAL FOOTER*/
+
+/*FRAMES*/
+
+@keyframes animacion {
+  0% {box-shadow: 0 0 0 0 rgba(29, 171, 209, .6),  0 0 0 0 rgba(29, 171, 209, .6);}
+
+  30% {box-shadow: 0 0 0 100px rgba(29, 171, 209, 0), 0 0 0 0 rgba(29, 171, 209, .6);}
+
+  65% {box-shadow: 0 0 0 100px rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);}
+
+  100% {box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 30px rgba(29, 171, 209, 0);}
+  ;}
 
 /*MEDIA QUERY INICIO*/
 
