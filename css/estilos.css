@@ -25,6 +25,7 @@
               display: grid;
               grid-template-columns: 1fr 1fr;
               grid-template-rows: 1fr 1fr; 
+              font-family: calibri;
             
             }
 
@@ -197,14 +198,20 @@
 
 /*ESTILOS FORMULARIO INICIO*/
 
-      .body-formulario {background-color: #1f53c5; }
+      .form-fondo {
+        background-image: url(/img/fondo_cel.jpg) ;
+        background-position: center;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 200px;
+
+      }
 
       .form-register {
         width: 400px;
         background: #24303c;
         padding: 30px;
         margin: auto;
-        margin-top: 100px;
         border-radius: 4px;
         font-family: 'calibri';
         color: white;
@@ -216,9 +223,18 @@
       .form-register h4 {
         font-size: 22px;
         margin-bottom: 20px;
+        text-align: center;
 
 
       }
+
+      .form-register h5 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+
+      }
+
 
       .controls {
         width: 100%;
@@ -226,7 +242,7 @@
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid #1f53c5;
+        border: 1px solid hwb(221 12% 23%);
         font-family: 'calibri';
         font-size: 18px;
         color: white;
@@ -266,9 +282,7 @@
         margin: 16px 0;
         font-size: 16px;
 
-
       }
-
 
 /*ESTILOS FORMULARIO FIN*/
 
@@ -320,7 +334,24 @@
       .botones {
           min-width: 1024px;
           background-image: radial-gradient( circle 1024px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+        
+        }
 
+    /*FORMULARIO MODS INICIO*/
+
+      .form-fondo {
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+        }
+      .form-register 
+        {margin-top: 20px;
+
+        }
+
+/*FORMULARIO MODS FIN*/
+
+    
 }
 
 @media screen and ( max-width: 768px) { 
@@ -373,12 +404,27 @@
           background-image: radial-gradient( circle 768px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
         
         }  
-          
-          
+             
+        
+    /*FORMULARIO MODS INICIO*/
+      
+        .form-fondo {
+          padding-top: 20px;
+          padding-bottom: 30px;
+
+        }
+        .form-register 
+          {margin-top: 20px;
+
+        }
+
+/*FORMULARIO MODS FIN*/
       }
             
       @media screen and (max-width: 425px) {
-        
+
+/*INDEX MODS INICIO*/     
+
       .bodyindex {
           width: 425px;
         
@@ -387,6 +433,7 @@
           display: flex;
           flex-direction: column;
           flex-flow: row;
+          
         
         }       
       .textos__navegador {
@@ -446,5 +493,52 @@
           background-image: radial-gradient( circle 425px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
         
         }
+        
+/*INDEX MODS FIN*/
+
+/*FORMULARIO MODS INICIO*/
+
+
+        .form-fondo {
+          padding-top: 20px;
+          padding-bottom: 60px;
+
+        }
+
+        .form-register {
+          width: 350px;
+          padding: 20px;
+          margin: auto;
+          border-radius: 4px;
+          font-family: 'calibri';
+          color: white;
+          box-shadow: 3px 9px 33px #000;
           }
+
+          .form-register h4 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+    
+    
+          }
+    
+          .form-register h5 {
+            font-size: 13px;
+            margin-bottom: 20px;
+            text-align: center;
+    
+          }
+
+          .form-register p {
+            height: 40px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 40px;
+    
+    
+          }
+/*FORMULARIO MODS FIN*/
+
+
 /*MEDIA QUERY FINAL*/
