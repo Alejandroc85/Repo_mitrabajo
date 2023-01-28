@@ -7,6 +7,8 @@
         Concepto:
         Web site para la promocion, venta y comunicacion B2B de una app de gestion laboral)-->
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--ESTILOS BS -->  
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <!--AOS -->
@@ -18,55 +20,70 @@
     <script src="https://kit.fontawesome.com/a41ea56622.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css"> 
-
 </head>
 <body class="bodyindex" >   
-  <header class="header">
-    <nav class="header__barra_navegador" > 
-      <a class="header__logocontenedor" href="#">
-          <img class="header__logo" src="./img/Mi_trabajo_completo_naranja.png" alt="mitrabajonaranja">
-      </a> 
-         <div class="textos__navegador">
-            <div>        
-                <a class="header__textobarranavegador" href="./vistas/Soluciones.html">Soluciones<a>            
-                <a class="header__textobarranavegador" href="./vistas/Nosotros.html">Nosotros</a>
-                <a class="header__textobarranavegador" href="./vistas/Contenidos.html">Contenidos</a>
-                <a class="header__textobarranavegador" href="./vistas/Formulario.html">Solicitar Demo</a>    
-            </div>   
-         </div>
-    </nav>     
-    <div> 
-        </header>   
-          <main> 
-              <div class="bodyindex_background">
+   <!--NAVBAR MENU -->
+         </header>
+          <nav class="menu_con_logo navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./img/Mi_trabajo_completo_naranja.png" href="./Index.html" alt="logo" width="200px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/Soluciones.html">Soluciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/Nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/Contenidos.html">contenidos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./vistas/Formulario.html">Solicitar Demo</a>
+                  </li>                          
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+   <!--HERO SECTION -->       
+        <main> 
+          <div class="bodyindex_background">
                   <h1 class="bodyIndex__headerhero">Centralizamos la operativa diaria de las empresas</h1>            
                   <p class="bodyindex__parrafo">Libere todo el potencial de su organizacion, somos eficiencia operativa en tiempo real</p>
                   <img class="bodyIndex__imagehero" src="./img/Imagen computadora.png" alt="imagencomputadora">
-                  <a class="bodyindex__boton" href="./vistas/Formulario.html"> <button>Solicitar Demo</button> </a>                
-              </div>      
+                  <button class="bodyindex__boton">solicitar una demo</button>            
+          </div>      
               <h2 class="bodyIndex__headerreel">Soluciones completas e integradas para satisfacer las necesidades de tu empresa</h2>
-    </div>
-  </main>
+           </div>
+          </main>
+        
     <footer class="footerindex">
-      <div class="footerindex__contenedor">
-            <p class="footerindex__parrafobajo">Ya confían en MiTrabajo</p>
-              <div class="footerindex__contenedorimagenes">                   
-                  <img class="footerindex__torrevieja" src="./img/Torrevieja_partner.png" alt="Torrevieja">
-                  <img class="footerIndex__lapetina" src="./img/Lapetina_partner.png" alt="Lapetina">
-                  <img class="footerIndex__alpe" src="./img/Alpe_partner.png" alt="Alpe">
-                  <img class="footerIndex__searaan" src="./img/Seraan_partner.png" alt="Seraan">        
-              </div>
-      </div>
-      <section class="botones">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-google-plus"></a>
-          <a href="#" class="fa fa-youtube"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-      </section>
+        <div class="footerindex__contenedor">
+              <p class="footerindex__parrafobajo">Ya confían en MiTrabajo</p>
+                <div class="footerindex__contenedorimagenes">                   
+                    <img class="footerindex__torrevieja" src="./img/Torrevieja_partner.png" alt="Torrevieja">
+                    <img class="footerIndex__lapetina" src="./img/Lapetina_partner.png" alt="Lapetina">
+                    <img class="footerIndex__alpe" src="./img/Alpe_partner.png" alt="Alpe">
+                    <img class="footerIndex__searaan" src="./img/Seraan_partner.png" alt="Seraan">        
+                </div>
+        </div>
+          <section class="botones">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google-plus"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+          </section>
     </footer>
         <script>
            AOS.init( {once: true,} );
         </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>      
   </body>
 </html>

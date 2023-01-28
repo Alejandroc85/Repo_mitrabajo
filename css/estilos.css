@@ -91,17 +91,13 @@
           }
 
       .bodyindex__boton { 
-            text-decoration: none;
-            color: white;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgb(247, 185, 14, 1);
-            padding: 70px 30px;
-            border-radius: 50%;
-            animation: animacion 2s linear infinite;
-          
+        background-color: orange;
+        color: white;
+        font-family: Calibri, sans-serif;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        margin-bottom: 5px;
           }
 
 /*FINAL MAIN*/
@@ -379,15 +375,7 @@
         
         }
       .bodyindex__boton {
-          text-decoration: none;
-          color: white;
-          position: relative;
-          top: 100%;
-          left: 10%;
-          background: rgb(247, 185, 14, 1);
-          padding: 40px 5px;
-          border-radius: 50%;
-          animation: animacion 2s linear infinite;
+
         
         }
       .bodyIndex__headerreel {
@@ -400,6 +388,7 @@
         
         }
       .botones {
+          overflow: hidden;
           min-width: 768px;
           background-image: radial-gradient( circle 768px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
         
@@ -425,7 +414,7 @@
 
 /*INDEX MODS INICIO*/     
 
-      .bodyindex {
+      .bodyindex {        
           width: 425px;
         
         }
@@ -469,16 +458,7 @@
         
         }
       .bodyindex__boton {
-          text-decoration: none;
-          color: white;
-          position: relative;
-          top: 100%;
-          left: 10%;
-          background: rgb(247, 185, 14, 1);
-          padding: 40px 5px;
-          border-radius: 50%;
-          animation: animacion 2s linear infinite;
-        
+
         }
         .bodyIndex__headerreel {
           font-size: 1rem;
@@ -490,6 +470,7 @@
         
         }
         .botones {
+          overflow: hidden;
           min-width: 425px;
           background-image: radial-gradient( circle 425px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
         
