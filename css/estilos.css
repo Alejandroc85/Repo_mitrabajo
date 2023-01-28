@@ -411,6 +411,12 @@
 
 /*INDEX MODS INICIO*/     
 
+        .body {
+          width: 425px;
+          overflow: hidden;
+
+        }
+
       .bodyindex {        
           width: 425px;
           overflow: hidden;
@@ -451,9 +457,10 @@
           
           }
       .bodyindex__parrafo {
-          font-size: 1.5rem;
-           text-align: center;
-           overflow: hidden;
+          font-size: 1rem;
+          width: fit-content;
+          text-align: center;
+          overflow: hidden;
           
           }
       .bodyIndex__imagehero {
