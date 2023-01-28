@@ -423,6 +423,7 @@
         
         }
       .header__barra_navegador{
+          width: 425px;
           display: flex;
           flex-direction: column;
           flex-flow: row;
@@ -431,7 +432,7 @@
         
         }       
       .textos__navegador {
-          width: fit-content;
+          width: 425px;
           display: flex; 
           flex-direction: column;
           justify-content: center;
@@ -441,6 +442,7 @@
         }
       .header__textobarranavegador {
           font-size: 1.5rem;
+          width: 425px;
         
         }
       .bodyindex_background {
@@ -452,13 +454,14 @@
         }    
       .bodyIndex__headerhero {
           font-size: 1.5rem;
-           text-align: center;
-           overflow: hidden;
+          width: 425px;
+          text-align: center;
+          overflow: hidden;
           
           }
       .bodyindex__parrafo {
           font-size: 1rem;
-          width: fit-content;
+          width: 425px;
           text-align: center;
           overflow: hidden;
           
@@ -475,12 +478,13 @@
         
         }
         .footerindex__parrafobajo {
-          font-size: 1rem;
+          font-size: 1.5rem;
+          width: 425px;
         
         }
         .botones {
           overflow: hidden;
-          min-width: 425px;
+          min-width: 420px;
           background-image: radial-gradient( circle 425px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
         
         }
