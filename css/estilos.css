@@ -1,4 +1,4 @@
-*{ margin: 0px; padding: 0; box-sizing: border-box; }
+*{ margin: 0px; padding: 0; box-sizing: border-box;}
 
 /*INICIO HEADER*/
 
@@ -343,6 +343,7 @@ background-color: mediumblue;}
     background: mediumblue; 
     width: 100%;
     padding: 100px 0px;
+
    }
 
    .titulo_contenidos h2 {
@@ -559,7 +560,7 @@ background-color: mediumblue;}
  .contenidos {
   display: flex;
   flex-direction: column;
-  width: 768px;
+  width: 100%;
   padding: 70px 0px;
  }
 
