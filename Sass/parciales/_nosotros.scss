@@ -1,0 +1,56 @@
+/*VISTA NOSOTROS INICIO*/
+
+.nosotros {width: 100%;
+    padding: 78px 0px;
+    background-color: mediumblue;}
+    
+    .nosotros img {
+      height: auto;
+      width: auto;
+    }
+    
+    .nosotros_logo {
+      height: auto;
+      width: 420px;}
+    
+    .texto_nosotros {
+      width: 550px;
+    }
+    
+    .nosotros_main {
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .nosotros h1 {
+      color: white;
+      font-size: 3rem;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+    
+    .nosotros h5 {
+      color: white;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      margin-bottom: 25px;
+      letter-spacing: 2px;
+    }
+    
+    .nosotros p {
+      color: white;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 1rem;
+      margin-bottom: 45px;
+    }
+    
+    
+    
+    /*VISTA NOSOTROS FIN*/
+    
+    

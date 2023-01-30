@@ -1,0 +1,354 @@
+/*MEDIA QUERY INICIO*/
+
+@media screen and (max-width: 1024px) {
+            
+    .body {
+        width: 1024px;
+      
+      }
+    .bodyIndex__headerhero { 
+        text-align: center;
+      
+      }
+    .bodyindex__parrafo {
+        color: aliceblue;
+        font-size: 2rem;
+        text-align: center;
+      
+      } 
+    .bodyindex__boton {
+        top: 120%;
+      
+      }
+    .bodyIndex__headerreel {
+        background-color: #3F3A3A;
+        color: aliceblue;
+        font-size: 2rem;
+        text-align: center; 
+      
+      }
+    .botones {
+        min-width: 1024px;
+        background-image: radial-gradient( circle 1024px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+      
+      }
+
+  /*FORMULARIO MODS INICIO*/
+
+    .form-fondo {
+      padding-top: 20px;
+      padding-bottom: 30px;
+
+      }
+    .form-register 
+      {margin-top: 20px;
+
+      }
+
+/*FORMULARIO MODS FIN*/
+
+  
+}
+
+@media screen and ( max-width: 768px) { 
+
+    .header__barra_navegador {
+        width: 100%; height: auto; 
+      
+      }    
+    .textos__navegador {
+        width: fit-content;
+      
+      }  
+    .bodyindex_background {
+        width: 768px;display: flex;flex-direction: column;
+      
+      }    
+    .bodyIndex__headerhero {
+        text-align: center;
+      
+      }
+    .bodyindex__parrafo {
+        text-align: center;}
+    .bodyIndex__imagehero {
+        width: 550px;
+      
+
+      }
+    .bodyIndex__headerreel {
+        font-size: 2rem;
+        text-align: center;
+      
+      }
+    .footerindex__parrafobajo {
+        font-size: 2rem;
+      
+      }
+    .botones {
+        overflow: hidden;
+        min-width: 768px;
+        background-image: radial-gradient( circle 768px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+      
+      }  
+           
+      
+  /*FORMULARIO MODS INICIO*/
+    
+      .form-fondo {
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+      }
+      .form-register 
+        {margin-top: 20px;
+
+      }
+
+/*FORMULARIO MODS FIN*/
+    }
+
+/*VISTA NOSOTROS INICIO*/
+
+.nosotros img {
+height: auto;
+padding-left: 0%;
+padding-right: 2%;
+}  
+
+.texto_nosotros {
+align-items: center;
+text-align: center;
+}
+
+/*VISTA NOSOTROS FIN*/
+
+/*VISTA CONTENIDO INICIO*/  
+
+.contenidos {
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 70px 0px;
+}
+
+.titulo_contenidos h2 {
+width: fit-content;
+font-size: 3rem;
+
+}
+
+.contenedor_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+
+}   
+
+
+
+/*VISTA CONTENIDO FIN*/
+          
+    @media screen and (max-width: 425px) {
+
+/*INDEX MODS INICIO*/     
+
+      .body {
+        width: 425px;
+        overflow: hidden;
+
+      }
+
+    .bodyindex {        
+        width: 425px;
+        overflow: hidden;
+      
+      }
+    .header__barra_navegador{
+        width: 425px;
+        display: flex;
+        flex-direction: column;
+        flex-flow: row;
+        overflow: hidden;
+        
+      
+      }       
+    .textos__navegador {
+        width: 425px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1rem; 
+        overflow: hidden;
+      
+      }
+    .header__textobarranavegador {
+        font-size: 1.5rem;
+        width: 425px;
+      
+      }
+    .bodyindex_background {
+        width: 425px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      
+      }    
+    .bodyIndex__headerhero {
+        font-size: 1.5rem;
+        width: 425px;
+        text-align: center;
+        overflow: hidden;
+        
+        }
+    .bodyindex__parrafo {
+        font-size: 1rem;
+        width: 425px;
+        text-align: center;
+        overflow: hidden;
+        
+        }
+    .bodyIndex__imagehero {
+        width: 330px;
+        overflow: hidden;
+      
+      }
+
+      .bodyIndex__headerreel {
+        font-size: 1rem;
+        text-align: center;
+      
+      }
+      .footerindex__parrafobajo {
+        font-size: 1.5rem;
+        width: 425px;
+      
+      }
+      .botones {
+        overflow: hidden;
+        min-width: 420px;
+        background-image: radial-gradient( circle 425px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+      
+      }
+      
+/*INDEX MODS FIN*/
+
+/*FORMULARIO MODS INICIO*/
+
+
+      .form-fondo {
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+      }
+
+      .form-register {
+        width: 350px;
+        padding: 20px;
+        margin: auto;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 3px 9px 33px #000;
+        }
+
+        .form-register h4 {
+          font-size: 20px;
+          margin-bottom: 20px;
+          text-align: center;
+  
+  
+        }
+  
+        .form-register h5 {
+          font-size: 13px;
+          margin-bottom: 20px;
+          text-align: center;
+  
+        }
+
+        .form-register p {
+          height: 40px;
+          text-align: center;
+          font-size: 15px;
+          line-height: 40px;
+  
+  
+        }
+/*FORMULARIO MODS FIN*/
+
+/*VISTA NOSOTROS INICIO*/
+
+.nosotros img {
+  height: auto;
+  width: 420px;
+  padding-left: 2%;
+  padding-right: 2%;
+}  
+
+.texto_nosotros {
+  width: 420px;
+  padding: 1%;
+  text-align: center;
+  align-items: center;
+}
+
+.nosotros_main {
+  width: 425px;
+  max-width: 95%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nosotros h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.nosotros h5 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nosotros p {
+  width: 425 px;
+  text-align: center;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+
+
+/*VISTA NOSOTROS FIN*/
+
+/*VISTA CONTENIDO INICIO*/  
+
+.contenidos {
+display: flex;
+flex-direction: column;
+width: 425px;
+padding: 70px 0px;
+}
+
+.titulo_contenidos h2 {
+width: fit-content;
+font-size: 2.5rem;
+
+}
+
+.contenedor_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+
+}   
+
+
+
+/*VISTA CONTENIDO FIN*/
+
+/*MEDIA QUERY FINAL*/
