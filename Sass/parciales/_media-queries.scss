@@ -146,9 +146,24 @@ font-size: 3rem;
 
 }   
 
-
-
 /*VISTA CONTENIDO FIN*/
+
+/*VISTA SOLUCIONES INICIO*/  
+.soluciones {
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  padding: 70px 0px;
+  }
+  
+  .titulo_soluciones h2 {
+    width: fit-content;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
+/*VISTA SOLUCIONES FIN*/  
           
     @media screen and (max-width: 425px) {
 
@@ -351,25 +366,22 @@ font-size: 2.5rem;
 
 /*VISTA SOLUCIONES INICIO*/  
 
+
 .soluciones {
   display: flex;
   flex-direction: column;
   width: 425px;
   padding: 70px 0px;
   }
-
+  
   .titulo_soluciones h2 {
-  width: fit-content;
-  font-size: 1rem;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  
-  }
-  
+    width: fit-content;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
 
-  
   /*VISTA SOLUCIONES FIN*/
 
 
