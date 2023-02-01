@@ -47,6 +47,49 @@
 
 /*FORMULARIO MODS FIN*/
 
+/*VISTA CONTENIDO INICIO*/  
+
+.contenidos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 70px 0px;
+  }
+  
+  .titulo_contenidos h2 {
+  width: fit-content;
+  font-size: 3rem;
+  
+  }
+  
+  .contenedor_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  
+  }   
+  
+  /*VISTA CONTENIDO FIN*/
+  
+  /*VISTA SOLUCIONES INICIO*/
+
+  .soluciones {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 0px;
+    }
+    
+    .titulo_soluciones h2 {
+      width: fit-content;
+      font-size: 2rem;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+      }
+  /*VISTA SOLUCIONES FIN*/  
   
 }
 
@@ -102,68 +145,73 @@
       .form-register 
         {margin-top: 20px;
 
+          /*FORMULARIO MODS FIN*/
+              }
+          
+          /*VISTA NOSOTROS INICIO*/
+          
+          .nosotros img {
+          height: auto;
+          padding-left: 0%;
+          padding-right: 2%;
+          }  
+          
+          .texto_nosotros {
+          align-items: center;
+          text-align: center;
+          }
+          
+          /*VISTA NOSOTROS FIN*/
+          
+          /*VISTA CONTENIDO INICIO*/  
+          
+          .contenidos {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding: 70px 0px;
+          }
+          
+          .titulo_contenidos h2 {
+          width: fit-content;
+          font-size: 3rem;
+          
+          }
+          
+          .contenedor_cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+          
+          }   
+          
+          /*VISTA CONTENIDO FIN*/
+          
+          /*VISTA SOLUCIONES INICIO*/  
+          
+          .soluciones {
+            display: flex;
+            flex-direction: column;
+            max-width: 768px;
+            padding: 70px 0px;
+            }
+            
+            .titulo_soluciones h2 {
+              width: fit-content;
+              font-size: 2rem;
+              margin-left: 10px;
+              margin-right: 10px;
+              
+              }
+          /*VISTA SOLUCIONES FIN*/  
+
+
+
+
       }
 
-/*FORMULARIO MODS FIN*/
-    }
-
-/*VISTA NOSOTROS INICIO*/
-
-.nosotros img {
-height: auto;
-padding-left: 0%;
-padding-right: 2%;
-}  
-
-.texto_nosotros {
-align-items: center;
-text-align: center;
-}
-
-/*VISTA NOSOTROS FIN*/
-
-/*VISTA CONTENIDO INICIO*/  
-
-.contenidos {
-display: flex;
-flex-direction: column;
-width: 100%;
-padding: 70px 0px;
-}
-
-.titulo_contenidos h2 {
-width: fit-content;
-font-size: 3rem;
-
-}
-
-.contenedor_cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 400px;
-
-}   
-
-/*VISTA CONTENIDO FIN*/
-
-/*VISTA SOLUCIONES INICIO*/  
-.soluciones {
-  display: flex;
-  flex-direction: column;
-  width: 768px;
-  padding: 70px 0px;
-  }
-  
-  .titulo_soluciones h2 {
-    width: fit-content;
-    font-size: 2rem;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-    }
-/*VISTA SOLUCIONES FIN*/  
           
     @media screen and (max-width: 425px) {
 
@@ -363,6 +411,7 @@ font-size: 2.5rem;
 }   
 
 /*VISTA CONTENIDO FIN*/
+
 
 /*VISTA SOLUCIONES INICIO*/  
 
