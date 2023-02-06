@@ -93,124 +93,126 @@
   
 }
 
-@media screen and ( max-width: 768px) { 
+@media screen and (max-width: 768px) {
+
+
 
     .header__barra_navegador {
-        width: 100%; height: auto; 
-      
-      }    
-    .textos__navegador {
-        width: fit-content;
-      
-      }  
-    .bodyindex_background {
-        width: 768px;display: flex;flex-direction: column;
-      
-      }    
-    .bodyIndex__headerhero {
-        text-align: center;
-      
-      }
-    .bodyindex__parrafo {
-        text-align: center;}
-    .bodyIndex__imagehero {
-        width: 550px;
-      
-
-      }
-    .bodyIndex__headerreel {
-        font-size: 2rem;
-        text-align: center;
-      
-      }
-    .footerindex__parrafobajo {
-        font-size: 2rem;
-      
-      }
-    .botones {
-        overflow: hidden;
-        min-width: 768px;
-        background-image: radial-gradient( circle 768px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
-      
-      }  
-           
-      
-  /*FORMULARIO MODS INICIO*/
+      width: 100%; height: auto; 
     
-      .form-fondo {
-        padding-top: 20px;
-        padding-bottom: 30px;
+    }    
+  .textos__navegador {
+      width: fit-content;
+    
+    }  
+  .bodyindex_background {
+      width: 768px;display: flex;flex-direction: column;
+    
+    }    
+  .bodyIndex__headerhero {
+      text-align: center;
+    
+    }
+  .bodyindex__parrafo {
+      text-align: center;
+    }
+  .bodyIndex__imagehero {
+      width: 550px;
+    }
+  .bodyIndex__headerreel {
+      font-size: 2rem;
+      text-align: center;  
+    }
+  .footerindex__parrafobajo {
+      font-size: 2rem;  
+    }
+  .botones {
+      overflow: hidden;
+      min-width: 768px;
+      background-image: radial-gradient( circle 768px at 10.2% 22.1%,  rgb(11, 39, 218) 0%, rgba(0,191,255,1) 90% );
+    
+  }  
+       
+  
+/*FORMULARIO MODS INICIO*/
 
+  .form-fondo {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+  }
+  .form-register 
+    {margin-top: 20px;
+
+      /*FORMULARIO MODS FIN*/
+          }
+      
+      /*VISTA NOSOTROS INICIO*/
+
+.nosotros_main {
+  flex-direction: column-reverse;
+}
+      .nosotros img {
+      height: auto;
+      width: 100%;
+      padding-left: 0%;
+      padding-right: 2%;
+      }  
+      
+      .texto_nosotros {
+      align-items: center;
+      text-align: center;
       }
-      .form-register 
-        {margin-top: 20px;
-
-          /*FORMULARIO MODS FIN*/
-              }
-          
-          /*VISTA NOSOTROS INICIO*/
-          
-          .nosotros img {
-          height: auto;
-          padding-left: 0%;
-          padding-right: 2%;
-          }  
-          
-          .texto_nosotros {
-          align-items: center;
-          text-align: center;
-          }
-          
-          /*VISTA NOSOTROS FIN*/
-          
-          /*VISTA CONTENIDO INICIO*/  
-          
-          .contenidos {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          padding: 70px 0px;
-          }
-          
-          .titulo_contenidos h2 {
+      
+      /*VISTA NOSOTROS FIN*/
+      
+      /*VISTA CONTENIDO INICIO*/  
+      
+      .contenidos {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 70px 0px;
+      }
+      
+      .titulo_contenidos h2 {
+      width: fit-content;
+      font-size: 3rem;
+      
+      }
+      
+      .contenedor_cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+      
+      }   
+      
+      /*VISTA CONTENIDO FIN*/
+      
+      /*VISTA SOLUCIONES INICIO*/  
+      
+      .soluciones {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        padding: 70px 0px;
+        }
+        
+        .titulo_soluciones h2 {
           width: fit-content;
-          font-size: 3rem;
+          font-size: 2rem;
+          margin-left: 10px;
+          margin-right: 10px;
           
           }
-          
-          .contenedor_cards {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 400px;
-          
-          }   
-          
-          /*VISTA CONTENIDO FIN*/
-          
-          /*VISTA SOLUCIONES INICIO*/  
-          
-          .soluciones {
-            display: flex;
-            flex-direction: column;
-            max-width: 768px;
-            padding: 70px 0px;
-            }
-            
-            .titulo_soluciones h2 {
-              width: fit-content;
-              font-size: 2rem;
-              margin-left: 10px;
-              margin-right: 10px;
-              
-              }
-          /*VISTA SOLUCIONES FIN*/  
+      /*VISTA SOLUCIONES FIN*/  
 
+  
+}
 
-
-
-      }
 
           
     @media screen and (max-width: 425px) {
@@ -345,7 +347,7 @@
 
 .nosotros img {
   height: auto;
-  width: 420px;
+  width: 100%;
   padding-left: 2%;
   padding-right: 2%;
 }  

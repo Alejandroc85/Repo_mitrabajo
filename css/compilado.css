@@ -444,8 +444,11 @@
     margin-top: 20px;
     /*FORMULARIO MODS FIN*/ }
   /*VISTA NOSOTROS INICIO*/
+  .nosotros_main {
+    flex-direction: column-reverse; }
   .nosotros img {
     height: auto;
+    width: 100%;
     padding-left: 0%;
     padding-right: 2%; }
   .texto_nosotros {
@@ -563,7 +566,7 @@
   /*VISTA NOSOTROS INICIO*/
   .nosotros img {
     height: auto;
-    width: 420px;
+    width: 100%;
     padding-left: 2%;
     padding-right: 2%; }
   .texto_nosotros {
