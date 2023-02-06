@@ -1,12 +1,14 @@
 /*VISTA NOSOTROS INICIO*/
 
 .nosotros {width: 100%;
-    padding: 78px 0px;
-    background-color: mediumblue;}
+    padding: 78px 10px;
+    background-color: mediumblue;
+  text-align: center;}
     
     .nosotros img {
       height: auto;
       width: auto;
+      padding-right: 3%;
     }
     
     .nosotros_logo {
@@ -18,7 +20,7 @@
     }
     
     .nosotros_main {
-      width: 1130px;
+      width: auto;
       max-width: 95%;
       margin: 0 auto;
       display: flex;
